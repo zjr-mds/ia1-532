@@ -15,7 +15,7 @@ app.layout = html.Div([
     html.Iframe(
         id='scatter',
         style={'border-width':'0', 'width':'100%', 'height':'400px'}),
-    dcc.Slider(id='xslider', min=0, max=10),
+    dcc.Slider(id='xslider', min=2, max=10),
     dcc.Dropdown(
             id='ycol', 
             value='Running_Time_min',
